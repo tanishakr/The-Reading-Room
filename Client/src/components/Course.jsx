@@ -1,9 +1,26 @@
 import React from "react";
 import Cards from "./Cards";
-import list from "../data/list.json";
-import {Link} from "react-router-dom"
+import axios from "axios";
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import { useEffect } from "react";
+import { getBook } from "../../../Server/controller/book.controller";
 
 function Course() {
+  const [book, setBook] = useState([]);
+  useEffect(() => {
+    const fetchbook = async () => {
+      try {
+        const res = await axios.get("http://localhost:3003/book");
+        console.log(res.data);
+        setBook(res.data)
+      } catch (error) {
+        console.log(error)
+      }
+    };
+    fetchbook();
+  }, []);
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-25 px-5 py-2">
@@ -13,12 +30,17 @@ function Course() {
             <span className="text-green-500">diff color</span>
           </h1>
           <p className="mt-10">
-            Yes, that is correct; mitochondria (plural of mitochondrion) are known as the "powerhouse of the cell" because they generate most of the cell's energy in the form of adenosine triphosphate (ATP) through the process of cellular respiration. This ATP serves as the chemical energy currency that powers various cellular activities and functions essential for life.
+            Yes, that is correct; mitochondria (plural of mitochondrion) are
+            known as the "powerhouse of the cell" because they generate most of
+            the cell's energy in the form of adenosine triphosphate (ATP)
+            through the process of cellular respiration. This ATP serves as the
+            chemical energy currency that powers various cellular activities and
+            functions essential for life.
           </p>
           <Link to="/">
-          <button className="bg-purple-600 text-white px-5 py-3 rounded-md hover:bg-orange-600 duration-300 mt-7">
-            Back
-          </button>
+            <button className="bg-purple-600 text-white px-5 py-3 rounded-md hover:bg-orange-600 duration-300 mt-7">
+              Back
+            </button>
           </Link>
         </div>
         {/*
@@ -28,7 +50,7 @@ function Course() {
           This gives you granular control over the layout.
         */}
         <div className="mt-15 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {list.map((item) => (
+          {book.map((item) => (
             <Cards key={item.id} item={item} />
           ))}
         </div>

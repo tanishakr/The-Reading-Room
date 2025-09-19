@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login";
+import Logout from "./Logout";
+import { useAuthentication } from "../context/AuthenticationProvider";
 
 function Navbar() {
-  
+  const [authUser, setAuthUser] = useAuthentication();
+
   const [shadow, setShadow] = useState(false);
 
   useEffect(() => {
@@ -136,14 +139,21 @@ function Navbar() {
               </svg>
             </label>
 
-            <div className="">
-              <a className="bg-white text-black px-4 py-2 rounded-md hover:bg-slate-300 duration-300 cursor-pointer"
-              onClick={() => document.getElementById("my_modal_3").showModal()}
-              >
-                Login
-              </a>
-              <Login></Login>
-            </div>
+            {authUser ? (
+              <Logout />
+            ) : (
+              <div className="">
+                <a
+                  className="bg-white text-black px-4 py-2 rounded-md hover:bg-slate-300 duration-300 cursor-pointer"
+                  onClick={() =>
+                    document.getElementById("my_modal_3").showModal()
+                  }
+                >
+                  Login
+                </a>
+                <Login></Login>
+              </div>
+            )}
           </div>
         </div>
       </div>
