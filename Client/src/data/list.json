@@ -1,91 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Cross my heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
+    "name": "Pride and Prejudice",
+    "title": "A classic novel by Jane Austen, following the tumultuous relationship between Elizabeth Bennet and Fitzwilliam Darcy.",
     "price": 0,
     "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320399351l/1885.jpg"
   },
-
   {
     "id": 2,
-    "name": "Crosckucs my heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 20,
-    "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "name": "To Kill a Mockingbird",
+    "title": "Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South.",
+    "price": 12.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553383690l/2657.jpg"
   },
-
   {
     "id": 3,
-    "name": "Cross mcxjtxdy heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 160,
-    "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "name": "1984",
+    "title": "George Orwell's dystopian masterpiece, '1984' is a chilling prophecy about the future.",
+    "price": 9.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657781256l/61439040.jpg"
   },
-
   {
     "id": 4,
-    "name": "Cross mjkblkgfcjcy heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 654651460,
+    "name": "The Great Gatsby",
+    "title": "F. Scott Fitzgerald's novel of the Jazz Age. It explores themes of decadence, idealism, and excess.",
+    "price": 10.50,
     "category": "not free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490528560l/4671.jpg"
   },
-
-  {
-    "id": 5,
-    "name": "Crovckuss my heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 1560,
-    "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
-  },
-
   {
     "id": 6,
-    "name": "Croshfkus my heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 65460,
-    "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "name": "The Hobbit",
+    "title": "J.R.R. Tolkien's delightful prelude to The Lord of the Rings, following Bilbo Baggins on an epic quest.",
+    "price": 14.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216l/5907.jpg"
   },
-
-  {
-    "id": 7,
-    "name": "Cross mvkvy heart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 260,
-    "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
-  },
-
-  {
-    "id": 8,
-    "name": "Cross my hejctydxart",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 51610,
-    "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
-  },
-
   {
     "id": 9,
-    "name": "Crossnonont",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 160,
-    "category": "not free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "name": "War and Peace",
+    "title": "Leo Tolstoy's epic novel that intertwines the lives of five aristocratic families during the Napoleonic Wars.",
+    "price": 0,
+    "category": "free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413215930l/656.jpg"
   },
-
   {
     "id": 10,
-    "name": "Cbujvbrt",
-    "title":" that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum a",
-    "price": 166160,
+    "name": "The Catcher in the Rye",
+    "title": "J.D. Salinger's classic novel of teenage angst and alienation, narrated by Holden Caulfield.",
+    "price": 8.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Dracula",
+    "title": "Bram Stoker's iconic horror novel, telling the story of Count Dracula's attempt to move to England.",
+    "price": 0,
     "category": "free",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla8erNGY2vUNsn9XyHiRQ0ri686Y3BMXkXA&s"
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387151694l/17245.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Sapiens: A Brief History of Humankind",
+    "title": "Yuval Noah Harari's landmark book, charting the entire history of humankind.",
+    "price": 19.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1595674533l/23692271.jpg"
+  },
+  {
+    "id": 21,
+    "name": "The Picture of Dorian Gray",
+    "title": "Oscar Wilde's philosophical novel about a young man who sells his soul for eternal youth and beauty.",
+    "price": 0,
+    "category": "free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297.jpg"
+  },
+  {
+    "id": 25,
+    "name": "The Silent Patient",
+    "title": "A shocking psychological thriller by Alex Michaelides about a psychotherapist and a silent patient.",
+    "price": 13.50,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668782119l/40097951.jpg"
+  },
+  {
+    "id": 31,
+    "name": "The Midnight Library",
+    "title": "Between life and death is a library, and within that library, the shelves go on forever. One book has the chance to try another life to see how things would be different.",
+    "price": 14.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602190253l/52578297.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Klara and the Sun",
+    "title": "Kazuo Ishiguro's novel about Klara, an 'Artificial Friend' with outstanding observational qualities, who watches the world and learns about human nature.",
+    "price": 15.50,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603206535l/54120408.jpg"
+  },
+  {
+    "id": 39,
+    "name": "The Seven Husbands of Evelyn Hugo",
+    "title": "Taylor Jenkins Reid's novel about a reclusive Old Hollywood movie icon who decides to give a final interview to an unknown magazine reporter.",
+    "price": 9.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664458703l/32620332.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Becoming",
+    "title": "Michelle Obama's intimate, powerful, and inspiring memoir about her life, from her childhood to her time as First Lady of the United States.",
+    "price": 18.99,
+    "category": "not free",
+    "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528206996l/38746485.jpg"
   }
 ]

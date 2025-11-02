@@ -7,13 +7,10 @@ function Hero() {
         <div className="w-full md:w-1/2 mt-15 md:mt-30 md:order-1 order-2 ">
           <div className="space-y-15">
             <h1 className="text-4xl font-bold">
-              Heading <span className="text-pink-500">diff colour heading</span>
+              Read, Learn, <span className="text-purple-500">And Grow</span>
             </h1>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-              minima doloribus rem veniam quaerat eligendi excepturi, temporibus
-              voluptate sit ea vel velit quo incidunt, ab nemo repellendus non
-              laudantium asperiores!
+              Welcome to The Reading Room, your new home for digital books and online courses. We offer a vast library of free public domain classics and premium modern titles. Log in to see your collection or sign up to get started!
             </p>
 
             <label className="input validator">
